@@ -3,10 +3,7 @@ The Metagenomic Pathogen Identification Pipeline (MetaPathID) is designed to imp
 
 ![MetaPathID](https://github.com/jackchen129/Metagenomic-pathogen-identification-pipeline/assets/49889016/6a526218-2a03-49a0-bbf1-3d17a0f1f89e)
 
-This pipeline requires the following software: 
-1.	Metagenome Assembly: Serotype	Number of isolates
-	Chile	Mexico	Brazil	Combined
-Agona	41	37	8	86
-Braenderup	6	23	18	47
-Muenchen	5	31	17	53
-Panama	14	24	31	69
+This pipeline requires the following publicly available tools: 
+1.	Metagenome Assembly: MEGHIT, SPAdes, or Ray Meta for Illumina short reads; Flye for Oxford Nanopore long reads.
+2.	Taxonomic Classification: Kraken 2
+3.	Sequence Extraction: Kraken 2 (extract_kraken_reads.py)[Table 1.docx](https://github.com/jackchen129/Metagenomic-pathogen-identification-pipeline/files/14620309/Table.1.docx)
