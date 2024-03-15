@@ -1,2 +1,2 @@
 # Metagenomic Pathogen Identification Pipeline (MetaPathID)
-The Metagenomic Pathogen Identification Pipeline is designed to improve pathogen identification in metagenomic datasets.
+The Metagenomic Pathogen Identification Pipeline is designed to improve pathogen identification in metagenomic datasets. It includes several sequential steps facilitated by publicly available bioinformatic tools, including metagenome assembly, taxonomic classification, and sequence extraction.![image](https://github.com/jackchen129/Metagenomic-pathogen-identification-pipeline/assets/49889016/8c48fd91-3374-4c51-b00b-f5537d54bff8)
