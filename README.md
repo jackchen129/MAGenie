@@ -7,3 +7,4 @@ This pipeline requires the following publicly available tools:
 1.	Metagenome Assembly: [Spades](https://github.com/ablab/spades) for Illumina short reads; [Flye](https://github.com/tseemann/shovill) for Oxford Nanopore long reads.
 2.	Taxonomic Classification: [Kraken 2](https://github.com/DerrickWood/kraken2).
 3.	Sequence Extraction: [KrakenTools](https://github.com/jenniferlu717/KrakenTools).
+# Usage
