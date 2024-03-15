@@ -12,7 +12,7 @@ This pipeline requires the following publicly available tools:
 3. Sequence Extraction: [KrakenTools](https://github.com/jenniferlu717/KrakenTools).
 
 # Usage
-1. Metagenome Assembly: Spades (`metaspades.py`) or Flye (`--meta`) will be used to assemble Illumina short or Oxford Nanopore long reads, respectively, into contiguous sequences (contigs). The assemblerS were previously selected based on their performance in generating high-quality assemblies for downstream genomic analyses.
+1. Metagenome Assembly: Spades (`metaspades.py`) or Flye (`--meta`) will be used to assemble Illumina short or Oxford Nanopore long reads, respectively, into contiguous sequences (contigs). The assemblers were previously selected based on their performance in generating high-quality assemblies for downstream genomic analyses.
 2. Taxonomic Classification: Following metagenome assembly, taxonomic classification of the assembled contigs will be performed using Kraken 2. This step involves assigning taxonomic labels to individual sequences based on their similarity to reference sequences in a predefined database.
 3. Sequence Extraction: Subsequently, sequences corresponding to specific taxonomic groups of interest will be extracted from the assembled contigs. This extraction process is conducted using the sequence extraction module of KrakenTools (`extract_kraken_reads.py`). The extracted sequences is compiled to generate draft MAGs representing the targeted taxonomic groups. This extraction encompasses reads classified at both parent (`--include-parents`) and child (`--include-children`) taxonomic levels. The draft MAGs serve as valuable genomic resources for downstream genomic analyses, including pathogen identification and phylogenetic inference.
 
