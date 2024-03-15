@@ -14,5 +14,5 @@ This pipeline requires the following publicly available tools:
 3. Sequence Extraction: Subsequently, sequences corresponding to specific taxonomic groups of interest will be extracted from the assembled contigs. This extraction process is conducted using the sequence extraction module of KrakenTools. The extracted sequences is compiled to generate draft metagenome-assembled genomes (MAGs) representing the targeted taxonomic groups. This extraction encompasses reads classified at both parent and child taxonomic levels. These draft MAGs serve as valuable genomic resources for downstream analyses, including pathogen identification and phylogenetic inference.
 
 # Citation
-In order to cite this pipeline, please refer to:
+In order to cite this pipeline, please refer to: 
 [Chen, Z., & Meng, J. (2022). Critical Assessment of Short-Read Assemblers for the Metagenomic Identification of Foodborne and Waterborne Pathogens Using Simulated Bacterial Communities. Microorganisms, 10(12), 2416.](https://www.mdpi.com/2076-2607/10/12/2416)
