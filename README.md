@@ -1,5 +1,8 @@
-# Metagenomic Pathogen Identification Pipeline (MetaPathID)
-The Metagenomic Pathogen Identification Pipeline (MetaPathID) is designed to improve pathogen identification within a metagenomic context through Illumina short reads or Oxford Nanopore long reads. It includes several sequential steps facilitated by publicly available bioinformatic tools, including metagenome assembly, taxonomic classification, and sequence extraction. While the pipeline described herein has not been integrated into a single software package, each step has been carefully curated and executed using established bioinformatic tools. 
+# Metagenome-Assembled Genome Reconstruction Pipeline (MetaMAG)
+A pipeline to reconstruct draft metagenome-assembled genomes for downstream pathogen identification
+
+# Introduction
+The Metagenome-Assembled Genome Reconstruction Pipeline (MetaMAG) is designed to achieve draft metagenome-assembled genomes (MAGs) for downstream pathogen identification within a metagenomic context through Illumina short reads or Oxford Nanopore long reads. It includes several sequential steps facilitated by publicly available bioinformatic tools, including metagenome assembly, taxonomic classification, and sequence extraction. While the pipeline described herein has not been integrated into a single software package, each step has been carefully curated and executed using established bioinformatic tools. 
 
 ![MetaPathID](https://github.com/jackchen129/Metagenomic-pathogen-identification-pipeline/assets/49889016/6a526218-2a03-49a0-bbf1-3d17a0f1f89e)
 
@@ -11,7 +14,7 @@ This pipeline requires the following publicly available tools:
 # Usage
 1. Metagenome Assembly: Spades (`metaspades.py`) or Flye (`--meta`) will be used to assemble Illumina short or Oxford Nanopore long reads, respectively, into contiguous sequences (contigs). The assemblerS were previously selected based on their performance in generating high-quality assemblies for downstream genomic analyses.
 2. Taxonomic Classification: Following metagenome assembly, taxonomic classification of the assembled contigs will be performed using Kraken 2. This step involves assigning taxonomic labels to individual sequences based on their similarity to reference sequences in a predefined database.
-3. Sequence Extraction: Subsequently, sequences corresponding to specific taxonomic groups of interest will be extracted from the assembled contigs. This extraction process is conducted using the sequence extraction module of KrakenTools (`extract_kraken_reads.py`). The extracted sequences is compiled to generate draft metagenome-assembled genomes (MAGs) representing the targeted taxonomic groups. This extraction encompasses reads classified at both parent (`--include-parents`) and child (`--include-children`)taxonomic levels. The draft MAGs serve as valuable genomic resources for downstream genomic analyses, including pathogen identification and phylogenetic inference.
+3. Sequence Extraction: Subsequently, sequences corresponding to specific taxonomic groups of interest will be extracted from the assembled contigs. This extraction process is conducted using the sequence extraction module of KrakenTools (`extract_kraken_reads.py`). The extracted sequences is compiled to generate draft MAGs representing the targeted taxonomic groups. This extraction encompasses reads classified at both parent (`--include-parents`) and child (`--include-children`)taxonomic levels. The draft MAGs serve as valuable genomic resources for downstream genomic analyses, including pathogen identification and phylogenetic inference.
 
 # Citation
 To cite this pipeline, please refer to: 
