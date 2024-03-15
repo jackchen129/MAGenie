@@ -1,1 +1,1 @@
-# Metagenomic-pathogen-identification-pipeline
+# Metagenomic Pathogen Identification Pipeline
