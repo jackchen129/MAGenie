@@ -6,8 +6,8 @@ The Metagenome-Assembled Genome Reconstruction Pipeline (MetaMAG) is designed to
 
 ![MetaPathID](https://github.com/jackchen129/Metagenomic-pathogen-identification-pipeline/assets/49889016/6a526218-2a03-49a0-bbf1-3d17a0f1f89e)
 
-This pipeline requires the following publicly available tools: 
-1. Metagenome Assembly: [Spades](https://github.com/ablab/spades) for Illumina short reads; [Flye](https://github.com/fenderglass/Flye) for Oxford Nanopore long reads.
+This pipeline requires the following tools: 
+1. Metagenome Assembly: [Spades](https://github.com/ablab/spades), [MEGAHIT](https://github.com/voutcn/megahit), or [Ray Meta](https://github.com/sebhtml/ray) for Illumina short reads; [Flye](https://github.com/fenderglass/Flye) for Oxford Nanopore long reads.
 2. Taxonomic Classification: [Kraken 2](https://github.com/DerrickWood/kraken2).
 3. Sequence Extraction: [KrakenTools](https://github.com/jenniferlu717/KrakenTools).
 
@@ -19,9 +19,13 @@ This pipeline requires the following publicly available tools:
 # Citation
 To cite this pipeline, please refer to: 
 
+>[Boisvert, S., Raymond, F., Godzaridis, É., Laviolette, F., & Corbeil, J. (2012). Ray Meta: scalable de novo metagenome assembly and profiling. Genome biology, 13, 1-13.](https://link.springer.com/article/10.1186/gb-2012-13-12-r122)
+>
 >[Chen, Z., & Meng, J. (2022). Critical Assessment of Short-Read Assemblers for the Metagenomic Identification of Foodborne and Waterborne Pathogens Using Simulated Bacterial Communities. Microorganisms, 10(12), 2416.](https://www.mdpi.com/2076-2607/10/12/2416)
 >
 >[Kolmogorov, M., Bickhart, D. M., Behsaz, B., Gurevich, A., Rayko, M., Shin, S. B., ... & Pevzner, P. A. (2020). metaFlye: scalable long-read metagenome assembly using repeat graphs. Nature Methods, 17(11), 1103-1110.](https://www.nature.com/articles/s41592-020-00971-x)
+>
+>[Li, D., Liu, C. M., Luo, R., Sadakane, K., & Lam, T. W. (2015). MEGAHIT: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de Bruijn graph. Bioinformatics, 31(10), 1674-1676.](https://academic.oup.com/bioinformatics/article/31/10/1674/177884)
 >
 >[Lu, J., Rincon, N., Wood, D. E., Breitwieser, F. P., Pockrandt, C., Langmead, B., ... & Steinegger, M. (2022). Metagenome analysis using the Kraken software suite. Nature Protocols, 17(12), 2815-2839.](https://www.nature.com/articles/s41596-022-00738-y)
 >
