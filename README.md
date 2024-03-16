@@ -4,7 +4,7 @@ A bioinformatic pipeline to reconstruct draft metagenome-assembled genomes (MAGs
 # Introduction
 MAGenie is a bioinformatic pipeline designed to reconstruct draft MAGs for downstream pathogen identification within a metagenomic context through Illumina short reads or Oxford Nanopore long reads. It includes several sequential steps facilitated by publicly available bioinformatic tools, including metagenome assembly, taxonomic classification, and sequence extraction. While the pipeline described herein has not been integrated into a single software package, each step has been carefully curated and executed using established bioinformatic tools. 
 
-<p align="center">(https://github.com/jackchen129/MAGenie/assets/49889016/f8edb74b-91ed-4ce5-860d-1f99a88b994a)
+<p align="center"><src="https://github.com/jackchen129/MAGenie/assets/49889016/f8edb74b-91ed-4ce5-860d-1f99a88b994a"></p>
 
 
 This pipeline requires the following tools: 
