@@ -27,7 +27,7 @@ The draft MAGs serve as valuable genomic resources for downstream genomic analys
 # Citations
 To cite this pipeline, please refer to: 
 
->[Boisvert, S., Raymond, F., Godzaridis, É., Laviolette, F., & Corbeil, J. (2012). Ray Meta: scalable de novo metagenome assembly and profiling. Genome Biology, 13, 1-13.](https://link.springer.com/article/10.1186/gb-2012-13-12-r122)
+>[Boisvert, S., Raymond, F., Godzaridis, É., Laviolette, F., & Corbeil, J. (2012). Ray Meta: scalable *de *novo metagenome assembly and profiling. Genome Biology, 13, 1-13.](https://link.springer.com/article/10.1186/gb-2012-13-12-r122)
 >
 >[Chen, Z., & Meng, J. (2022). Critical assessment of short-read assemblers for the metagenomic identification of foodborne and waterborne pathogens using simulated bacterial communities. Microorganisms, 10(12), 2416.](https://www.mdpi.com/2076-2607/10/12/2416)
 >
