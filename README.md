@@ -24,7 +24,7 @@ This pipeline requires the following tools:
 
 The draft MAGs serve as valuable genomic resources for downstream genomic analyses, such as identifications of plasmids, virulence genes, and antimicrobial resistance genes, serotyping, multilocus sequence typing, and phylogenetic inference.
 
-# Citation
+# Citations
 To cite this pipeline, please refer to: 
 
 >[Boisvert, S., Raymond, F., Godzaridis, É., Laviolette, F., & Corbeil, J. (2012). Ray Meta: scalable de novo metagenome assembly and profiling. Genome Biology, 13, 1-13.](https://link.springer.com/article/10.1186/gb-2012-13-12-r122)
