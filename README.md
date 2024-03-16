@@ -19,7 +19,7 @@ This pipeline requires the following tools:
 3. Sequence Extraction: Subsequently, sequences corresponding to specific taxonomic groups of interest will be extracted from the assembled contigs. This extraction process is conducted using the sequence extraction module of KrakenTools (`extract_kraken_reads.py`). The extracted sequences is compiled to generate draft MAGs representing the targeted taxonomic groups. This extraction encompasses reads classified at both parent (`--include-parents`) and child (`--include-children`) taxonomic levels.
 
 <p align="center">
-<img src="https://github.com/jackchen129/MAGenie/assets/49889016/c8fa843c-a9df-4b02-b47b-0c40ecd2622e">
+<img src="https://github.com/jackchen129/MAGenie/assets/49889016/b493edca-e0af-4046-acb7-459248941a75">
 </p>
 
 The draft MAGs serve as valuable genomic resources for downstream genomic analyses, such as identifications of plasmids, virulence genes, and antimicrobial resistance genes, serotyping, multilocus sequence typing, and phylogenetic inference.
