@@ -2,7 +2,7 @@
 A bioinformatic pipeline to reconstruct draft metagenome-assembled genomes (MAGs)
 
 <p align="center">
-<img src="https://github.com/jackchen129/MAGenie/assets/49889016/f8edb74b-91ed-4ce5-860d-1f99a88b994a">
+<img src="https://github.com/jackchen129/MAGenie/assets/49889016/042feb5d-7056-465c-bb44-acf4ccd80737">
 </p>
 
 # Introduction
