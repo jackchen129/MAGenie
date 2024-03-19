@@ -26,11 +26,13 @@ This pipeline requires the following tools:
 The draft MAGs serve as valuable genomic resources for downstream genomic analyses, such as identifications of plasmids, virulence genes, and antimicrobial resistance determinants, serotyping, multilocus sequence typing, and phylogenetic inference.
 
 # Citations
-To cite this pipeline, please refer to: 
+If you find MAGenie useful, please cite: 
+
+>[Chen, Z., & Meng, J. (2022). Critical assessment of short-read assemblers for the metagenomic identification of foodborne and waterborne pathogens using simulated bacterial communities. Microorganisms, 10(12), 2416.](https://www.mdpi.com/2076-2607/10/12/2416)
+>
+You may also consider citing the following (tools used by MAGenie): 
 
 >[Boisvert, S., Raymond, F., Godzaridis, É., Laviolette, F., & Corbeil, J. (2012). Ray Meta: scalable *de* *novo* metagenome assembly and profiling. Genome Biology, 13, 1-13.](https://link.springer.com/article/10.1186/gb-2012-13-12-r122)
->
->[Chen, Z., & Meng, J. (2022). Critical assessment of short-read assemblers for the metagenomic identification of foodborne and waterborne pathogens using simulated bacterial communities. Microorganisms, 10(12), 2416.](https://www.mdpi.com/2076-2607/10/12/2416)
 >
 >[Kolmogorov, M., Bickhart, D. M., Behsaz, B., Gurevich, A., Rayko, M., Shin, S. B., ... & Pevzner, P. A. (2020). metaFlye: scalable long-read metagenome assembly using repeat graphs. Nature Methods, 17(11), 1103-1110.](https://www.nature.com/articles/s41592-020-00971-x)
 >
