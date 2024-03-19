@@ -23,7 +23,7 @@ This pipeline requires the following tools:
 2. Taxonomic sequence classification: Following metagenome assembly, taxonomic classification of the assembled contigs will be performed using Kraken 2. This step involves assigning taxonomic labels to individual sequences based on their similarity to reference sequences in a predefined database.
 3. Classified sequence extraction: Subsequently, sequences corresponding to specific taxonomic groups of interest will be extracted from the assembled contigs. This extraction process is conducted using the sequence extraction module of KrakenTools (`extract_kraken_reads.py`). The extracted sequences is compiled to generate draft MAGs representing the targeted taxonomic groups. This extraction encompasses reads classified at both parent (`--include-parents`) and child (`--include-children`) taxonomic levels.
 
-The draft MAGs serve as valuable genomic resources for downstream genomic analyses, such as identifications of plasmids, virulence genes, and antimicrobial resistance determinants, serotyping, multilocus sequence typing, and phylogenetic inference.
+The draft MAGs serve as valuable resources for downstream genomic analyses, such as identifications of mobile genetic elements (plasmids, prophages, etc.) and genes (antimicrobial resistance genes, virulence genes, etc.), serotyping, multilocus sequence typing, and phylogenetic inference.
 
 # Citations
 If you find MAGenie useful, please cite: 
