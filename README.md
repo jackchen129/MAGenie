@@ -6,12 +6,12 @@ A bioinformatic pipeline to reconstruct draft metagenome-assembled genomes (MAGs
 </p>
 
 # Introduction
-MAGenie is a bioinformatic pipeline designed to reconstruct draft MAGs for downstream pathogen identification within a metagenomic context through Illumina short reads or Oxford Nanopore long reads. It includes several sequential steps facilitated by publicly available bioinformatic tools, including metagenome assembly, taxonomic classification, and sequence extraction. While the pipeline described herein has not been integrated into a single software package, each step has been carefully curated and executed using established bioinformatic tools. 
+MAGenie is a bioinformatic pipeline designed to reconstruct draft MAGs for downstream pathogen identification within a metagenomic context through Illumina short reads or Oxford Nanopore long reads. It includes several sequential steps facilitated by publicly available bioinformatic tools, including metagenome assembly, taxonomic sequence classification, and classified sequence extraction. While the pipeline described herein has not been integrated into a single software package, each step has been carefully curated and executed using established bioinformatic tools. 
 
 This pipeline requires the following tools: 
-1. Metagenome Assembly: [MEGAHIT](https://github.com/voutcn/megahit), [SPAdes](https://github.com/ablab/spades), or [Ray](https://github.com/sebhtml/ray) for Illumina short reads; [Flye](https://github.com/fenderglass/Flye) for Oxford Nanopore long reads.
-2. Taxonomic Classification: [Kraken 2](https://github.com/DerrickWood/kraken2).
-3. Sequence Extraction: [KrakenTools](https://github.com/jenniferlu717/KrakenTools).
+1. Metagenome assembly: [MEGAHIT](https://github.com/voutcn/megahit), [SPAdes](https://github.com/ablab/spades), or [Ray](https://github.com/sebhtml/ray) for Illumina short reads; [Flye](https://github.com/fenderglass/Flye) for Oxford Nanopore long reads.
+2. Taxonomic sequence classification: [Kraken 2](https://github.com/DerrickWood/kraken2).
+3. Classified sequence extraction: [KrakenTools](https://github.com/jenniferlu717/KrakenTools).
 
 # Usage
 
@@ -19,9 +19,9 @@ This pipeline requires the following tools:
 <img width="800" height="424.7427"src="https://github.com/jackchen129/MAGenie/assets/49889016/410d5ad4-2ea6-4f6b-b622-c0fafb526abe">
 </p>
 
-1. Metagenome Assembly: MEGAHIT, SPAdes (`metaspades.py`), or Ray and Flye (`--meta`) will be used to assemble Illumina short reads and Oxford Nanopore long reads, respectively, into contiguous sequences (contigs). The assemblers were previously selected based on their performance in generating high-quality assemblies for downstream genomic analyses.
-2. Taxonomic Classification: Following metagenome assembly, taxonomic classification of the assembled contigs will be performed using Kraken 2. This step involves assigning taxonomic labels to individual sequences based on their similarity to reference sequences in a predefined database.
-3. Sequence Extraction: Subsequently, sequences corresponding to specific taxonomic groups of interest will be extracted from the assembled contigs. This extraction process is conducted using the sequence extraction module of KrakenTools (`extract_kraken_reads.py`). The extracted sequences is compiled to generate draft MAGs representing the targeted taxonomic groups. This extraction encompasses reads classified at both parent (`--include-parents`) and child (`--include-children`) taxonomic levels.
+1. Metagenome assembly: MEGAHIT, SPAdes (`metaspades.py`), or Ray and Flye (`--meta`) will be used to assemble Illumina short reads and Oxford Nanopore long reads, respectively, into contiguous sequences (contigs). The assemblers were previously selected based on their performance in generating high-quality assemblies for downstream genomic analyses.
+2. Taxonomic sequence classification: Following metagenome assembly, taxonomic classification of the assembled contigs will be performed using Kraken 2. This step involves assigning taxonomic labels to individual sequences based on their similarity to reference sequences in a predefined database.
+3. Classified sequence extraction: Subsequently, sequences corresponding to specific taxonomic groups of interest will be extracted from the assembled contigs. This extraction process is conducted using the sequence extraction module of KrakenTools (`extract_kraken_reads.py`). The extracted sequences is compiled to generate draft MAGs representing the targeted taxonomic groups. This extraction encompasses reads classified at both parent (`--include-parents`) and child (`--include-children`) taxonomic levels.
 
 The draft MAGs serve as valuable genomic resources for downstream genomic analyses, such as identifications of plasmids, virulence genes, and antimicrobial resistance determinants, serotyping, multilocus sequence typing, and phylogenetic inference.
 
