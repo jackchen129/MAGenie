@@ -16,7 +16,7 @@ This pipeline requires the following tools:
 # Usage
 
 <p align="center">
-<img width="800" height="424.7427"src="https://github.com/jackchen129/MAGenie/assets/49889016/ed53e1de-7584-4a5e-b62d-06dec1dd482e">
+<img width="800" height="424.7427"src="https://github.com/jackchen129/MAGenie/assets/49889016/410d5ad4-2ea6-4f6b-b622-c0fafb526abe">
 </p>
 
 1. Metagenome Assembly: MEGAHIT, SPAdes (`metaspades.py`), or Ray and Flye (`--meta`) will be used to assemble Illumina short reads and Oxford Nanopore long reads, respectively, into contiguous sequences (contigs). The assemblers were previously selected based on their performance in generating high-quality assemblies for downstream genomic analyses.
