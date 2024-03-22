@@ -29,17 +29,24 @@ The draft MAGs serve as valuable resources for downstream genomic analyses, such
 If you find MAGenie useful, please cite: 
 
 >[Chen, Z., & Meng, J. (2022). Critical assessment of short-read assemblers for the metagenomic identification of foodborne and waterborne pathogens using simulated bacterial communities. Microorganisms, 10(12), 2416.](https://www.mdpi.com/2076-2607/10/12/2416)
->
+
 You may also consider citing the following (tools used by MAGenie): 
 
->[Boisvert, S., Raymond, F., Godzaridis, É., Laviolette, F., & Corbeil, J. (2012). Ray Meta: scalable *de* *novo* metagenome assembly and profiling. Genome Biology, 13, 1-13.](https://link.springer.com/article/10.1186/gb-2012-13-12-r122)
->
->[Kolmogorov, M., Bickhart, D. M., Behsaz, B., Gurevich, A., Rayko, M., Shin, S. B., ... & Pevzner, P. A. (2020). metaFlye: scalable long-read metagenome assembly using repeat graphs. Nature Methods, 17(11), 1103-1110.](https://www.nature.com/articles/s41592-020-00971-x)
->
+>MEGAHIT: 
 >[Li, D., Liu, C. M., Luo, R., Sadakane, K., & Lam, T. W. (2015). MEGAHIT: an ultra-fast single-node solution for large and complex metagenomics assembly via succinct de Bruijn graph. Bioinformatics, 31(10), 1674-1676.](https://academic.oup.com/bioinformatics/article/31/10/1674/177884)
 >
->[Lu, J., Rincon, N., Wood, D. E., Breitwieser, F. P., Pockrandt, C., Langmead, B., ... & Steinegger, M. (2022). Metagenome analysis using the Kraken software suite. Nature Protocols, 17(12), 2815-2839.](https://www.nature.com/articles/s41596-022-00738-y)
->
+>SPAdes: 
 >[Nurk, S., Meleshko, D., Korobeynikov, A., & Pevzner, P. A. (2017). metaSPAdes: a new versatile metagenomic assembler. Genome Research, 27(5), 824-834.](https://genome.cshlp.org/content/27/5/824)
 >
+>Ray: 
+>[Boisvert, S., Raymond, F., Godzaridis, É., Laviolette, F., & Corbeil, J. (2012). Ray Meta: scalable *de* *novo* metagenome assembly and profiling. Genome Biology, 13, 1-13.](https://link.springer.com/article/10.1186/gb-2012-13-12-r122)
+>
+>Flye: 
+>[Kolmogorov, M., Bickhart, D. M., Behsaz, B., Gurevich, A., Rayko, M., Shin, S. B., ... & Pevzner, P. A. (2020). metaFlye: scalable long-read metagenome assembly using repeat graphs. Nature Methods, 17(11), 1103-1110.](https://www.nature.com/articles/s41592-020-00971-x)
+>
+>Kraken 2: 
 >[Wood, D. E., Lu, J., & Langmead, B. (2019). Improved metagenomic analysis with Kraken 2. Genome Biology, 20, 1-13.](https://link.springer.com/article/10.1186/s13059-019-1891-0)
+>
+>KrakenTools: 
+>[Lu, J., Rincon, N., Wood, D. E., Breitwieser, F. P., Pockrandt, C., Langmead, B., ... & Steinegger, M. (2022). Metagenome analysis using the Kraken software suite. Nature Protocols, 17(12), 2815-2839.](https://www.nature.com/articles/s41596-022-00738-y)
+
