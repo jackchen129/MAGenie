@@ -34,7 +34,7 @@ If you find MAGenie useful, please cite:
 >Oxford Nanopore long reads: 
 >[Chen, Z., Grim, C.J., Ramachandran, P., & Meng, J. (2024). Advancing metagenome-assembled genome-based pathogen identification: unraveling the power of long-read assembly algorithms in Oxford Nanopore sequencing. Microbiology Spectrum, 12(6), e00117-24.](https://journals.asm.org/doi/10.1128/spectrum.00117-24)
 
-Simulated data sets used to benchmark MAGenie: 
+Shotgun metagenomic data sets of simulated bacterial communities used to benchmark MAGenie: 
 
 >Illumina short reads: 
 >[Chen, Z., & Meng, J. (2024). Illumina short read-based shotgun metagenomic data sets of simulated bacterial communities derived from fresh spinach and surface water. Microbiology Resource Announcements, 13(7), e00375-24.](https://journals.asm.org/doi/full/10.1128/mra.00375-24)
