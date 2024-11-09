@@ -28,8 +28,10 @@ The draft MAGs serve as valuable resources for downstream genomic analyses, such
 # Citations
 If you find MAGenie useful, please cite: 
 
+>Illumina short reads: 
 >[Chen, Z., & Meng, J. (2022). Critical assessment of short-read assemblers for the metagenomic identification of foodborne and waterborne pathogens using simulated bacterial communities. Microorganisms, 10(12), 2416.](https://www.mdpi.com/2076-2607/10/12/2416)
 >
+>Oxford Nanopore long reads
 >[Chen, Z., Grim, C.J., Ramachandran, P., & Meng, J. (2024). Advancing metagenome-assembled genome-based pathogen identification: unraveling the power of long-read assembly algorithms in Oxford Nanopore sequencing. Microbiology Spectrum, 12(6), e00117-24](https://journals.asm.org/doi/10.1128/spectrum.00117-24).
 
 You may also consider citing the following (tools used by MAGenie): 
